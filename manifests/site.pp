@@ -1,6 +1,6 @@
 package {
     'apache2':
-        ensure => installed
+        ensure => absent
 }
 
 service {
