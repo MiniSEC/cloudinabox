@@ -3,5 +3,5 @@ node ‘host1.mgmt’ {
 }
 
 node ‘host2.mgmt’ {
-   include tmux
+   include nachos
 }
