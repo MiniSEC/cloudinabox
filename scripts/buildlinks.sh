@@ -7,3 +7,5 @@
 # locations to folders managed by Git
 ########################################
 #
+rm -rf /etc/puppet/manifests
+ln -s /cloudinabox/manifests
