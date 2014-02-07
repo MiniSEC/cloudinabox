@@ -1,11 +1,11 @@
 package {
     'apache2':
-        ensure => absent
+        ensure => purged
 }
 
 service {
     'apache2':
-        ensure => true,
-        enable => true,
+        ensure => false,
+        enable => false,
         require => Package['apache2']
 }
